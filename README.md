@@ -9,15 +9,11 @@ Sushy is a Python library to communicate with Redfish based systems
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  pip install sushy
+2.  mkvirtualenv sushy
+    pip install sushy
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 参与贡献
 
