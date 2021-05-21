@@ -35,7 +35,7 @@ needed we can expand Sushy to fullfil those requirements.
 
 %package -n python2-sushy
 Summary:	Sushy is a small Python library to communicate with Redfish based systems
-Provides:	python-sushy
+Provides:	python2-sushy
 BuildRequires:	python2-devel
 BuildRequires:	python2-setuptools
 Requires:	python2-pbr
@@ -137,5 +137,5 @@ mv %{buildroot}/doclist.lst .
 %{_docdir}/*
 
 %changelog
-* Fri May 07 2021 OpenStack_SIG <openstack@openeuler.org>
+* Tue May 11 2021 OpenStack_SIG <openstack@openeuler.org>
 - Package Spec generated
