@@ -1,11 +1,11 @@
 %global _empty_manifest_terminate_build 0
 Name:           python-sushy
-Version:        3.7.2
+Version:        3.7.3
 Release:        1
 Summary:        Sushy is a small Python library to communicate with Redfish based systems
 License:        Apache-2.0
 URL:            https://docs.openstack.org/sushy/latest/
-Source0:        https://files.pythonhosted.org/packages/e9/e3/612d7d6fdaca858a19cecb384f72280bca770ec652a63bd564654124fb98/sushy-3.7.2.tar.gz
+Source0:        https://files.pythonhosted.org/packages/92/66/1dbbcc8bd0d2c3518c7ab87c26217aadd070d00f8289109c690922ba6c6f/sushy-3.7.3.tar.gz
 BuildArch:      noarch
 
 %description
@@ -87,6 +87,9 @@ mv %{buildroot}/doclist.lst .
 %{_docdir}/*
 
 %changelog
+* Tue Feb 15 2022 OpenStack_SIG <openstack@openeuler.org> - 3.7.3-1
+- Upgrade version to 3.7.3 for OpenStack Wallaby
+
 * Fri Aug 06 2021 OpenStack_SIG <openstack@openeuler.org> - 3.7.2-1
 - Upgrade version to 3.7.2
 
